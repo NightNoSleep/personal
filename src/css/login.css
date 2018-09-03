@@ -1,0 +1,11 @@
+.login_page{
+	width: 100vw;
+	height: 150vw;
+	background-image: url('../img/loginBack.png');
+	background-repeat: no-repeat;
+
+	text-align: center;
+	line-height: 400px;
+	color:white;
+	font-size: 20vw;
+}
