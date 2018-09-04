@@ -5,5 +5,10 @@ body {
 }
 #root{
 	width: 100vw;
-	height: 100%;
+}
+/* input 提示框 */
+.ant-form-explain{
+	font-size:4vw;
+	color:pink; 
+	text-indent:1em;
 }

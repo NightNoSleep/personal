@@ -1,11 +1,32 @@
 .login_page{
 	width: 100vw;
-	height: 150vw;
+	height: 170vw;
 	background-image: url('../img/loginBack.png');
 	background-repeat: no-repeat;
-
+	background-size: 100% 100%;
 	text-align: center;
-	line-height: 400px;
 	color:white;
 	font-size: 20vw;
+}
+.login_page input{
+	width: 60vw;
+	margin-top: 50vw;
+	height: 40px;
+	text-align: right;
+	font-size: 4vw;
+	padding-right: 3em;
+	color:white!important;
+	background-color: rgba(255,255,255,0.3);
+	border:1px solid rgba(255,255,255,0.3);
+}
+.login_page input::-webkit-input-placeholder{
+	color:white;
+}
+.login_page .verification_btn{
+	width: 30vw;
+	margin-top: 70vw;
+	height: 10vw;
+	background: rgba(255,255,255,0.3);
+	color:white;
+	border:1px solid orange;
 }
