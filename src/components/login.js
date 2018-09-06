@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../css/login.css'
-import { Input, Button, Form } from 'antd'
+import { Input, Button, Form, message } from 'antd'
 import axios from 'axios'
 import { browserHistory } from "react-router"
 
@@ -28,6 +28,8 @@ class Login extends Component{
 					if (res.data.res_code === 0) {
 						sessionStorage.setItem('she','zss')
 						browserHistory.push('/')
+					}else{
+						message.error('话不对哦~~')
 					}
 				})
 			}
