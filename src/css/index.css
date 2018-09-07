@@ -11,22 +11,63 @@
 	height: 100%;
 	background:rgba(0,0,0,.4);
 }
+.page_index .index_page .touxiang{
+	padding-top: 20vw;
+	width: 100vw;
+	position: relative;
+	height: 50vw;
+}
+.touxiang_love{
+	position: absolute;
+	top: 28vw;
+	left: 42vw;
+	width: 16vw;
+	height: 16vw;
+	border-radius: 50%;
+	background-image: url('../img/love.png');
+	background-size: 100% 100%;
+}
 .touxiang_left,.touxiang_right{
 	width: 30vw;
 	height: 30vw;
-	margin-top: 20vw;
+	border-radius:50%;
 	overflow: hidden;
 }
 .touxiang_left{
 	background-image: url('../img/he.jpg');
 	background-size: 100% 100%;
 	float: left;
-	margin-left: 10vw;
+	margin-left: 5vw;
 
 }
 .touxiang_right{
 	float: right;
-	margin-right: 10vw;
+	margin-right: 5vw;
 	background-image: url('../img/she.jpg');
 	background-size: 100% 100%;
+}
+
+.page_index .index_page .together_time{
+	display: flex;
+	align-items: center;
+	width: 100vw;
+}
+.page_index .index_page .together_time span{
+	display: block;
+}
+.together_time .days,.together_time .hours,.together_time .minutes,.together_time .seconds{
+	width: 25%;
+	height: 30vw;
+	margin-top: 5vw;
+	display: flex;
+	text-align: left;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	color:white;
+	font-size: 6vw;
+}
+.together_time .days{
+}
+.together_time .hours{
 }
